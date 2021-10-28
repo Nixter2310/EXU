@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exandria Unlimited</title>
+    <link rel="stylesheet" href="exu_stylesheet.css">
+    <link rel="stylesheet" href="exu_style_2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<div class="topnav" id="myTopnav">s
+    <a href="EXU_index.html" class="active">Home</a>
+    <a href="Characters.html">Characters</a>
+    <a href="Episodes.html">Episodes</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+
+<body>
+
+<ul>
+    <li><a href="EXU_index.html">Home</a></li>
+    <li><a href="Characters.html">Characters</a></li>
+    <li><a href="Episodes.html">Episodes</a></li>
+</ul>
+
+<h1>Welcome to Exandria Unlimited!</h1>
+
+<div id="logo_1"><img src="site_images/ExU_logo_black_w_title.png" height="300" width="300"/></div>
+
+<div id="logo_2"><img src="site_images/ExU_logo_black_w_title.png" height="300" width="300"/></div>
+
+<div id="group_img_1"><img src="site_images/maxresdefault.jpg" height="527" width="936"/></div>
+
+<h3>Welcome to the next chapter in the Critical Role universe...Exandria Unlimited!
+    This mini-series tells the story of five budding adventurers as they travel together through Exandria on various quests.
+    The game is run by Critical Role's newest GM, Aabria Iyengar.
+    Find out more about the characters and the actors that play them in the 'Characters' section.
+    The series airs live on Twitch and YouTube every Thursday and the video is available on Critical Role's YouTube channel every Monday.</h3>
+
+<h2>Is it Monday yet?</h2>
+
+<h3>Countdown to the FINAL episode on YouTube...</h3>
+
+<p id="demo"></p>
+<script src="exu.js"></script>
+
+<h3>Oh and in case you're wondering where this adventure fits in the Critical Role timeline, here's a handy dandy guide: </h3>
+<div id="timeline"><img src="site_images/timeline.jpg" height="527" width="936"/></div>
+
+<footer><h6>Website built and designed by Nicola Denton 2021</h6></footer>
+
+</body>
+</html>
