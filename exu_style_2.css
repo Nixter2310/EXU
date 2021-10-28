@@ -1,0 +1,282 @@
+@media screen and (max-width: 1440px) {
+/*Home*/
+    #logo_1, #logo_2 {
+        margin: 50px 30px;
+   }
+#group_img_1 img, #group_img_2 img, #group_img_3 img {
+    width: 700px;
+    height: 410px;
+}
+h3 {
+    margin: 60px 150px;
+    font-size: 20px;
+}
+#timeline {
+    width: 63%;
+}
+footer {
+    margin-bottom: -30px;
+}
+footer h6 {
+    font-size: 15px;
+}
+/*Characters*/
+    .flex-container-1, .flex-container-2, .flex-container-3, .flex-container-4, .flex-container-5, .flex-container-6 {
+        display: flex;
+        justify-content: left;
+    }
+    .flex-container-2, .flex-container-5 {
+        margin-top: 110px;
+    }
+    .flex-container-6 {
+        margin-top: 170px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    /*Home*/
+    #logo_1, #logo_2 {
+        margin: 60px 30px;
+    }
+    #logo_1 img, #logo_2 img {
+     height: 250px;
+        width: 250px;
+    }
+    p {
+        width: 45%;
+    }
+    #timeline {
+        width: 69%;
+    }
+    /*Characters*/
+    .flex-container-1, .flex-container-2, .flex-container-3, .flex-container-4, .flex-container-5 {
+        margin-left: 150px;
+    }
+    .flex-container-6 {
+        margin-left: 145px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (max-height: 768px) and (orientation: landscape) {
+/*Home*/
+    h1 {
+        width: 61%;
+        margin: 70px auto 70px auto;
+    }
+    #logo_1, #logo_2 {
+        display: none;
+    }
+    #group_img_1, #group_img_2, #group_img_3 {
+        width: 68%;
+    }
+    h3 {
+        margin: 60px 135px;
+    }
+    #timeline {
+        width: 69%;
+    }
+    #timeline img {
+        width: 700px;
+        height: 400px;
+    }
+    /*Characters*/
+    .flex-container-1, .flex-container-2, .flex-container-3, .flex-container-4, .flex-container-5 {
+        margin-left: 100px;
+    }
+    .flex-container-3 {
+        margin-top: 110px;
+        margin-bottom: 230px;
+    }
+    .flex-container-4 {
+        margin-bottom: 200px;
+    }
+    .flex-container-5 {
+        margin-bottom: 250px;
+    }
+    .flex-container-6 {
+        margin-left: 90px;
+    }
+    #bio_text {
+        margin-left: 200px;
+        margin-top: -50px;
+    }
+    #bio_text h2 {
+        font-size: 70px;
+    }
+    #bio_text h4 {
+            font-size: 17px;
+           line-height: 35px;
+    }
+    /*Episodes*/
+    #ep_1 h4, #ep_2 h4, #ep_3 h4, #ep_4 h4, #ep_5 h4, #ep_6 h4, #ep_7 h4, #ep_8 h4 {
+        font-size: 17px;
+        line-height: 35px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
+    /*Home*/
+    h1 {
+        width: 72%;
+        margin: 70px auto 70px auto;
+        font-size: 100px;
+    }
+    #logo_1, #logo_2 {
+        display: none;
+    }
+    #group_img_1, #group_img_2, #group_img_3 {
+        width: 93%;
+    }
+    h3 {
+       margin: 60px 80px;
+    }
+    #timeline {
+        width: 100%;
+    }
+    #timeline img {
+        width: 750px;
+        height: 440px;
+    }
+    /*Characters*/
+    .flex-container-1, .flex-container-2, .flex-container-3, .flex-container-4, .flex-container-5, .flex-container-6 {
+        display: inline-block;
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+    #bio_text {
+        margin-left: 30px;
+        margin-top: 230px;
+    }
+    #dorian, #orym, #fearne, #opal, #dariax, #fyra {
+        margin-left: 25px;
+    }
+    /*Episodes*/
+    #ep_1 h4, #ep_2 h4, #ep_3 h4, #ep_4 h4, #ep_5 h4, #ep_6 h4, #ep_7 h4, #ep_8 h4 {
+         font-size: 17px;
+        line-height: 35px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    ul {
+        display: none;
+    }
+    .topnav {
+        display: block;
+        background-color: #0D5337;
+        overflow: hidden;
+    }
+    .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        font-family: 'AucoinLight';
+        letter-spacing: 0.8px;
+    }
+    .topnav a:hover {
+        background-color: green;
+        color: black;
+    }
+    .topnav a.active {
+        background-color: black;
+        color: white;
+    }
+    .topnav .icon {
+        display: none;
+    }
+    /*Home*/
+    #group_img_1, #group_img_2, #group_img_3, #timeline img {
+        width: 100%;
+    }
+    #group_img_1 img, #group_img_2 img, #group_img_3 img, #timeline img {
+        width: 360px;
+        height: 220px;
+    }
+    h1 {
+        width: 95%;
+        font-size: 60px;
+        margin: 50px auto 50px auto;
+    }
+    h3 {
+        font-size: 15px;
+        line-height: 30px;
+        margin: 50px 30px;
+    }
+    h2 {
+        font-size: 50px;
+    }
+    p {
+        width: 70%;
+        font-size: 30px;
+    }
+    footer {
+        margin-bottom: -20px;
+    }
+    footer h6 {
+        font-size: 13px;
+    }
+    /*Characters*/
+    .flex-container-1 img, .flex-container-2 img, .flex-container-3 img, .flex-container-4 img, .flex-container-5 img, .flex-container-6 img {
+height: 350px;
+        width: 250px;
+    }
+    .flex-container-1, .flex-container-2, .flex-container-3, .flex-container-4, .flex-container-5, .flex-container-6 {
+        margin-left: 28px;
+        margin-top: 80px;
+    }
+    #bio_text {
+        margin-top: 80px;
+        width: 100%;
+    }
+    #bio_text h2 {
+        font-size: 60px;
+    }
+    #bio_text h4 {
+        font-size: 15px;
+        line-height: 30px;
+        margin: 0;
+    }
+    /*Episodes*/
+    #ep_1 h2, #ep_2 h2, #ep_3 h2, #ep_4 h2, #ep_5 h2, #ep_6 h2, #ep_7 h2, #ep_8 h2 {
+        font-size: 50px;
+        margin-top: 80px;
+        width: 97%;
+    }
+
+    #ep_1 h4, #ep_2 h4, #ep_3 h4, #ep_4 h4, #ep_5 h4, #ep_6 h4, #ep_7 h4, #ep_8 h4 {
+        font-size: 15px;
+        line-height: 30px;
+    }
+iframe {
+    width: 355px;
+    height: 220px;
+    margin: 60px auto;
+}
+
+    @media screen and (max-width: 600px) {
+        .topnav a:not(:first-child) {display: none;}
+        .topnav a.icon {
+            float: right;
+            display: block;
+        }
+    }
+    @media screen and (max-width: 600px) {
+        .topnav.responsive {position: relative;}
+        .topnav.responsive a.icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        .topnav.responsive a {
+            float: none;
+            display: block;
+            text-align: left;
+        }
+    }
+}

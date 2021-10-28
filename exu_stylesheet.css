@@ -1,0 +1,207 @@
+@font-face {
+    font-family: 'Niagara Engraved';
+    src: url('NiagaraEngraved-Reg.woff2') format('woff2'),
+    url('NiagaraEngraved-Reg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AucoinLight';
+    src: url('AucoinLight.woff2') format('woff2'),
+    url('AucoinLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*Index*/
+body {
+    background: url("site_images/green.jpg");
+    background-size: cover;
+}
+.topnav {
+    display: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0D5337;
+    }
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 23px;
+    text-decoration: none;
+    font-family: "AucoinLight";
+    letter-spacing: 0.8px;
+    font-size: 18px;
+  }
+li a:hover {
+    background-color: #111;
+}
+h1 {
+    font-family: 'Niagara Engraved';
+    color: white;
+    text-align: center;
+    font-size: 120px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+#group_img_1, #group_img_2, #group_img_3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+h3 {
+    font-family: 'AucoinLight';
+    color: white;
+    text-align: center;
+    margin: 60px 200px;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 35px;
+}
+#logo_1 {
+    float: left;
+    margin: 70px;
+}
+#logo_2 {
+    float: right;
+    margin: 70px;
+}
+h2 {
+    font-family: 'Niagara Engraved';
+    color: white;
+    text-align: center;
+    font-size: 90px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+p {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'AucoinLight';
+    color: white;
+    background: forestgreen;
+    padding: 20px;
+    width: 25%;
+    margin: auto;
+}
+#timeline {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 100px;
+}
+footer {
+    background: #0D5337;
+    margin-bottom: -40px;
+}
+footer h6 {
+    font-size: 20px;
+    color: white;
+    font-family: 'AucoinLight';
+    font-weight: normal;
+    text-align: center;
+    padding: 10px;
+}
+
+/*Characters*/
+.flex-container-1, .flex-container-2, .flex-container-3, .flex-container-4, .flex-container-5 {
+    display: flex;
+    justify-content: left;
+    margin: 150px 100px 0 200px;
+}
+.flex-container-6 {
+    display: flex;
+    justify-content: left;
+    margin: 180px 100px 200px 200px;
+}
+
+.flip-box {
+    background-color: transparent;
+    width: 214px;
+    height: 300px;
+    perspective: 1000px;
+}
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+.flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+.flip-box-front {
+    background-color: #bbb;
+    color: black;
+}
+.flip-box-back {
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 10px;
+}
+#bio_text {
+    margin-left: 200px;
+    margin-top: -20px;
+}
+#bio_text h2 {
+    font-family: 'Niagara Engraved';
+    color: white;
+    text-align: left;
+    font-size: 80px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+#bio_text h4 {
+    font-family: 'AucoinLight';
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 40px;
+}
+
+/*Episodes*/
+iframe {
+    margin: 70px auto;
+    display: block;
+}
+#ep_1 h2, #ep_2 h2, #ep_3 h2, #ep_4 h2, #ep_5 h2, #ep_6 h2, #ep_7 h2, #ep_8 h2 {
+    font-family: 'Niagara Engraved';
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    margin-top: 100px;
+}
+#ep_1 h4, #ep_2 h4, #ep_3 h4, #ep_4 h4, #ep_5 h4, #ep_6 h4, #ep_7 h4, #ep_8 h4 {
+    font-family: 'AucoinLight';
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 40px;
+    width: 50%;
+    margin: auto;
+}
