@@ -23,6 +23,6 @@
     // If the count down is finished, write some text
     if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "WATCH THE WHOLE SERIES ON YOUTUBE";
+    document.getElementById("demo").innerHTML = "Watch the whole seires in the 'Episodes' section!";
 }
 }, 1000);
